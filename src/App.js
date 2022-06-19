@@ -1,6 +1,6 @@
 import { Fragment, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { sendCartData } from './store/cart-slice';
+import { sendCartData } from './store/cart-actions';
 
 import Cart from './components/Cart/Cart';
 import Layout from './components/Layout/Layout';
